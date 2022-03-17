@@ -1,0 +1,135 @@
+.header {
+    
+    background: #03503e;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.header div {
+    display: flex;
+}
+
+.header img {
+    width: auto;
+    height: 40px;
+    margin-left: 50px;
+}
+
+
+a {
+    
+    font-size: 14px;
+    color: rgb(235, 225, 225);
+    margin-right: 80pt;
+    text-decoration: unset;
+    border-radius: 90px;
+}
+
+.right-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.flex-container {
+    background-color: #03503e;
+    padding: 60pt;
+    display: flex;
+    -ms-flex-item-align: start;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+    align-self: center;   
+}
+
+.paragraph {
+    font-size: 18px;
+    color: #E5E7EB; 
+    padding-right: 40pt;
+    border-color: blue;
+}
+
+.click {
+    background-color: rgb(22, 110, 145);
+    border-radius: 35%;
+}
+  
+.flex-container img {
+    height: 300px;
+    width: 300;
+    border-radius: 50%;
+    border-style: double;  
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 8pt;
+    margin-left: 100pt;
+    margin-right: 100pt;
+}
+
+.info-title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937; 
+  text-align: center;
+}
+
+.info-buttons {
+    display: flex;
+}
+.image-one .image-two .image-tree .image-four {
+    display: flex;
+    flex-direction: column;
+}
+.info-buttons img {
+    height: 100px;
+    width: auto;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50pt;
+    background-color: #E5E7EB;
+}
+.quote-container p {
+    font-size: 36pt;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote-container h2 {
+    align-self: flex-end;
+    text-align: right;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #03503e;
+    padding-top: 25pt;
+    padding-bottom: 25pt;
+
+}
+.container .call {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50pt;
+    margin-right: 50pt;
+    font-style: oblique;
+    text-align: center;
+}
+.container .button {
+    height: min-content;
+    align-self: center;
+    background-color: rgb(22, 110, 145);
+}
+
+
